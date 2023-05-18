@@ -1,0 +1,17 @@
+{
+  "name": "mynote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/khmoyu/mynote.git",
+  "author": "khmoyu <khstarwjx@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.76",
+    "vue": "^3.3.4"
+  }
+}
